@@ -1,0 +1,6 @@
+framework module Pods_FullScreenDemoTests {
+  umbrella header "Pods-FullScreenDemoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

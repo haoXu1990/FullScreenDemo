@@ -1,0 +1,65 @@
+PODS:
+  - DZNEmptyDataSet (1.8.1)
+  - LXFProtocolTool (1.1.2):
+    - LXFProtocolTool/AssociatedObjectStore (= 1.1.2)
+    - LXFProtocolTool/Base (= 1.1.2)
+    - LXFProtocolTool/EmptyDataSetable (= 1.1.2)
+    - LXFProtocolTool/FullScreenable (= 1.1.2)
+    - LXFProtocolTool/LXFNibloadable (= 1.1.2)
+    - LXFProtocolTool/Refreshable (= 1.1.2)
+    - LXFProtocolTool/RxEmptyDataSetable (= 1.1.2)
+  - LXFProtocolTool/AssociatedObjectStore (1.1.2)
+  - LXFProtocolTool/Base (1.1.2)
+  - LXFProtocolTool/EmptyDataSetable (1.1.2):
+    - DZNEmptyDataSet (>= 1.8.1)
+    - LXFProtocolTool/AssociatedObjectStore
+    - LXFProtocolTool/Base
+  - LXFProtocolTool/FullScreenable (1.1.2):
+    - LXFProtocolTool/AssociatedObjectStore
+    - LXFProtocolTool/Base
+  - LXFProtocolTool/LXFNibloadable (1.1.2)
+  - LXFProtocolTool/Refreshable (1.1.2):
+    - LXFProtocolTool/AssociatedObjectStore
+    - LXFProtocolTool/Base
+    - MJRefresh
+    - RxSwift (>= 4.0.0)
+  - LXFProtocolTool/RxEmptyDataSetable (1.1.2):
+    - LXFProtocolTool/EmptyDataSetable
+    - RxCocoa (>= 4.0.0)
+  - MJRefresh (3.2.0)
+  - RxCocoa (5.0.0):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxGesture (3.0.0):
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - RxRelay (5.0.0):
+    - RxSwift (~> 5)
+  - RxSwift (5.0.0)
+
+DEPENDENCIES:
+  - LXFProtocolTool
+  - RxGesture
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - DZNEmptyDataSet
+    - LXFProtocolTool
+    - MJRefresh
+    - RxCocoa
+    - RxGesture
+    - RxRelay
+    - RxSwift
+
+SPEC CHECKSUMS:
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  LXFProtocolTool: b6e7f86b8fd3b0d88e4fbcece8176bf71cdcf014
+  MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
+  RxCocoa: fcf32050ac00d801f34a7f71d5e8e7f23026dcd8
+  RxGesture: 0cd8e37ff9a266e1c31f46bcaed6de1c536bc81e
+  RxRelay: 4f7409406a51a55cd88483f21ed898c234d60f18
+  RxSwift: 8b0671caa829a763bbce7271095859121cbd895f
+
+PODFILE CHECKSUM: 2974a41cbcfccaea3415b0e99afc24cc815110ca
+
+COCOAPODS: 1.5.3
