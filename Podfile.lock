@@ -36,10 +36,12 @@ PODS:
   - RxRelay (5.0.0):
     - RxSwift (~> 5)
   - RxSwift (5.0.0)
+  - TABAnimated (2.1.9)
 
 DEPENDENCIES:
   - LXFProtocolTool
   - RxGesture
+  - TABAnimated
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -50,6 +52,7 @@ SPEC REPOS:
     - RxGesture
     - RxRelay
     - RxSwift
+    - TABAnimated
 
 SPEC CHECKSUMS:
   DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
@@ -59,7 +62,8 @@ SPEC CHECKSUMS:
   RxGesture: 0cd8e37ff9a266e1c31f46bcaed6de1c536bc81e
   RxRelay: 4f7409406a51a55cd88483f21ed898c234d60f18
   RxSwift: 8b0671caa829a763bbce7271095859121cbd895f
+  TABAnimated: e913a2eb5a1caf3553dcef8e4d9d3f24f0c29b31
 
-PODFILE CHECKSUM: 2974a41cbcfccaea3415b0e99afc24cc815110ca
+PODFILE CHECKSUM: b4f871b59212cf9697ad8e30a2f939dd2506989c
 
 COCOAPODS: 1.5.3

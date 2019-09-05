@@ -38,7 +38,7 @@ class viewCell: UITableViewCell, FullScreenable {
     func initUI() {
         self.selectionStyle = .none
         playerView = PlayerView.loadFromNib()
-        playerView.frame = contentView.frame
+        playerView.frame = CGRect.init(x: 0, y: 0, width: UIScreen.main.bounds.size.width, height: 500)
         contentView.addSubview(playerView)
     }
 

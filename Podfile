@@ -10,6 +10,8 @@ target 'FullScreenDemo' do
   pod 'LXFProtocolTool'
   pod 'RxGesture'
   
+  pod 'TABAnimated'
+  
   target 'FullScreenDemoTests' do
     inherit! :search_paths
     # Pods for testing
